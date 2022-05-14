@@ -15,4 +15,4 @@ for (let i = 0; i < listTitles.length; i++) {
   let listArr = listsInsideList[i].querySelectorAll("li");
   let listLen = listArr.length;
   cl("Category: " + t + "\n" + "Elements: " + listLen);
-}
+};
