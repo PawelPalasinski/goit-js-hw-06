@@ -9,4 +9,4 @@ textInput.onblur = function () {
         this.classList.remove("valid");
         this.classList.add("invalid");
     }
-}
+};

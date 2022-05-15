@@ -5,4 +5,4 @@ slider.addEventListener("input", onChangeFontStyleInput);
 
 function onChangeFontStyleInput(e) {
   text.style.fontSize = e.currentTarget.value + "px";
-}
+};
