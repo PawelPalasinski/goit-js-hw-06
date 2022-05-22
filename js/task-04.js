@@ -1,6 +1,6 @@
-let counterDisplayElem = document.querySelector("#value");
-let counterMinusElem = document.querySelector('[data-action="decrement"]');
-let counterPlusElem = document.querySelector('[data-action="increment"]');
+const counterDisplayElem = document.querySelector("#value");
+const counterMinusElem = document.querySelector('[data-action="decrement"]');
+const counterPlusElem = document.querySelector('[data-action="increment"]');
 
 let counterValue = 0;
 
